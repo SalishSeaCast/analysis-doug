@@ -7,6 +7,12 @@ The links below are to static renderings of the notebooks via
 Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
+* ##[ONC-DataWebServices.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis/raw/tip/Doug/ONC-DataWebServices.ipynb)  
+    
+    **Exploring ONC Data Web Services**  
+      
+    Exploring the ONC data web services documented at https://wiki.oceannetworks.ca/display/help/API  
+
 * ##[ThalwegSalinityVideo.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis/raw/tip/Doug/ThalwegSalinityVideo.ipynb)  
     
     **Working Toward a Daily Updated Thalweg Salinity Contours Video**  
