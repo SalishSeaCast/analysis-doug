@@ -3,21 +3,21 @@ sharing of Python code techniques and notes about model results analysis
 code.
 
 The links below are to static renderings of the notebooks via
-[nbviewer.ipython.org](http://nbviewer.ipython.org/).
+[nbviewer.jupyter.org](http://nbviewer.jupyter.org/).
 Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ##[ONC-DataWebServices.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis/raw/tip/Doug/ONC-DataWebServices.ipynb)  
+* ##[ONC-DataWebServices.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/ONC-DataWebServices.ipynb)  
     
     **Exploring ONC Data Web Services**  
       
     Exploring the ONC data web services documented at https://wiki.oceannetworks.ca/display/help/API  
 
-* ##[ThalwegSalinityVideo.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis/raw/tip/Doug/ThalwegSalinityVideo.ipynb)  
+* ##[ThalwegSalinityVideo.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/ThalwegSalinityVideo.ipynb)  
     
     **Working Toward a Daily Updated Thalweg Salinity Contours Video**  
 
-* ##[NowcastFiguresRefactoring.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis/raw/tip/Doug/NowcastFiguresRefactoring.ipynb)  
+* ##[NowcastFiguresRefactoring.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/NowcastFiguresRefactoring.ipynb)  
     
     **Refactoring `nowcast.figures`**  
       
@@ -28,14 +28,14 @@ Descriptions below the links are from the first cell of the notebooks
     Set-up and function calls should replicate as nearly as possible  
     what is done in `nowcast.workers.make_plots` worker.  
 
-* ##[StormSurgeAlertsFeedDaily.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis/raw/tip/Doug/StormSurgeAlertsFeedDaily.ipynb)  
+* ##[StormSurgeAlertsFeedDaily.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/StormSurgeAlertsFeedDaily.ipynb)  
     
     **PMV Storm Surge Alert Feed Generator**  
       
     Notebook to generate `pmv.xml` feed while `nowcast.workers.make_feeds`  
     worker is in development.  
 
-* ##[StormSurgeAlertsFeed.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis/raw/tip/Doug/StormSurgeAlertsFeed.ipynb)  
+* ##[StormSurgeAlertsFeed.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/StormSurgeAlertsFeed.ipynb)  
     
     **Storm Surge Alerts Feeds**  
       
@@ -47,14 +47,14 @@ Descriptions below the links are from the first cell of the notebooks
     Consideration is also given to the possibility of providing a wider collection  
     of feeds in the future.  
 
-* ##[DFO-WaterLevelsService.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis/raw/tip/Doug/DFO-WaterLevelsService.ipynb)  
+* ##[DFO-WaterLevelsService.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/DFO-WaterLevelsService.ipynb)  
     
     **Getting Data from DFO Water Levels Service**  
       
     Example code to access the DFO Water Levels web service,  
     and information about what data are available there.  
 
-* ##[SalishSeaTools_py3_issues.ipynb](http://nbviewer.ipython.org/urls/bitbucket.org/salishsea/analysis/raw/tip/Doug/SalishSeaTools_py3_issues.ipynb)  
+* ##[SalishSeaTools_py3_issues.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/SalishSeaTools_py3_issues.ipynb)  
     
     **Debug Python 3 Porting issues in SalishSeaTools Package**  
 

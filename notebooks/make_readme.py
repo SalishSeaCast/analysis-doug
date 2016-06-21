@@ -22,9 +22,9 @@ import os
 import re
 
 
-nbviewer = 'http://nbviewer.ipython.org/urls'
-repo = 'bitbucket.org/salishsea/analysis/raw/tip'
-repo_dir = 'Doug'
+nbviewer = 'http://nbviewer.jupyter.org/urls'
+repo = 'bitbucket.org/salishsea/analysis-doug/raw/tip'
+repo_dir = 'notebooks'
 url = os.path.join(nbviewer, repo, repo_dir)
 title_pattern = re.compile('#{1,6} ?')
 readme = """The IPython Notebooks in this directory are made by Doug for
@@ -32,7 +32,7 @@ sharing of Python code techniques and notes about model results analysis
 code.
 
 The links below are to static renderings of the notebooks via
-[nbviewer.ipython.org](http://nbviewer.ipython.org/).
+[nbviewer.jupyter.org](http://nbviewer.jupyter.org/).
 Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
