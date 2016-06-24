@@ -35,6 +35,16 @@ Descriptions below the links are from the first cell of the notebooks
     Notebook to generate `pmv.xml` feed while `nowcast.workers.make_feeds`  
     worker is in development.  
 
+* ##[RotateGEM2.5ResearchForecastWinds.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/RotateGEM2.5ResearchForecastWinds.ipynb)  
+    
+    **Rotate GEM2.5 Research Forecast Winds**  
+      
+    This notebook documents the process for correcting the wind direction  
+    issue in the GEM2.5 research model forecast files  
+    (/results/forcing/atmospheric/GEM2.5/research/).  
+      
+
+
 * ##[StormSurgeAlertsFeed.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/StormSurgeAlertsFeed.ipynb)  
     
     **Storm Surge Alerts Feeds**  
