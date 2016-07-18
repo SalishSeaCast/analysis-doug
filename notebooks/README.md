@@ -13,6 +13,13 @@ Descriptions below the links are from the first cell of the notebooks
       
     Exploring the ONC data web services documented at https://wiki.oceannetworks.ca/display/help/API  
 
+* ##[ONC-ADCP-Data.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/ONC-ADCP-Data.ipynb)  
+    
+    **Exploring Getting ONC ADCP Data**  
+      
+    Translating the essence of `getSogAdcpData.m` from Matlab to Python  
+    and from (somewhat) general purpose to pre-automation specific.  
+
 * ##[ThalwegSalinityVideo.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/ThalwegSalinityVideo.ipynb)  
     
     **Working Toward a Daily Updated Thalweg Salinity Contours Video**  
