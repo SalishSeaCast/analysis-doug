@@ -24,6 +24,20 @@ Descriptions below the links are from the first cell of the notebooks
     
     **Working Toward a Daily Updated Thalweg Salinity Contours Video**  
 
+* ##[ONC-CTD-DataToERDDAP.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/ONC-CTD-DataToERDDAP.ipynb)  
+    
+    **Development of Algorithms for ERDDAP Dataset from ONC CTD Data**  
+      
+    Figuring out how to transform a day's ONC CTD data from a SoG node into  
+    a netCDF file that is part of an ERDDAP dataset:  
+      
+    * filter the ONC data to include only `qaqcFlag == 1` samples  
+    * remove the `qaqcFlag` arrays as variable attributes  
+    * aggregate the data into 15 minute time bins;  
+    mean, variance, and count for each variable in each time bin  
+    * store dataset as netCDF file  
+    * generate ERDDAP `/opt/tomcat/content/erddap/datasets.xml` fragment  
+
 * ##[NowcastFiguresRefactoring.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/NowcastFiguresRefactoring.ipynb)  
     
     **Refactoring `nowcast.figures`**  
