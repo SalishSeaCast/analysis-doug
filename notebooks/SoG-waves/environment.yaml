@@ -1,0 +1,25 @@
+# create an environment in which notebooks in this directory can be run with:
+#
+#  conda env create -f environment.yaml
+
+name: sog-waves-analysis
+
+channels:
+  - defaults
+  - gomss-nowcast
+  - conda-forge
+
+dependencies:
+  - bottleneck
+  - cmocean
+  - hdf4
+  - jupyter_contrib_nbextensions
+  - netCDF4
+  - notebook
+  - matplotlib
+  - pip
+  - python=3.6
+  - scipy
+  - xarray
+  - pip:
+      - yapf
