@@ -1,6 +1,7 @@
 # create an environment in which notebooks in this directory can be run with:
 #
 #  conda env create -f environment.yaml
+#  pip install -e ../../../tools/SalishSeaTools/
 
 name: sog-waves-analysis
 
@@ -14,12 +15,16 @@ dependencies:
   - cmocean
   - hdf4
   - jupyter_contrib_nbextensions
+  - matplotlib
   - netCDF4
   - notebook
-  - matplotlib
   - pip
   - python=3.6
+  - requests
   - scipy
   - xarray
   - pip:
+      - angles
+      - arrow
+      - retrying
       - yapf
