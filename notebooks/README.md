@@ -42,6 +42,12 @@ Descriptions below the links are from the first cell of the notebooks
     
     **Debug Python 3 Porting issues in SalishSeaTools Package**  
 
+* ##[ONC-TWDP-nav.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/ONC-TWDP-nav.ipynb)  
+    
+    **ONC scalardata API TWDP Ferry Nav Sensors Check**  
+      
+    Explore availability of nav data from ONC scalardata API for TWDP ferry in 2016  
+
 * ##[StormSurgeAlertsFeed.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/StormSurgeAlertsFeed.ipynb)  
     
     **Storm Surge Alerts Feeds**  
