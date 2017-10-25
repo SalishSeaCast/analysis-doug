@@ -85,6 +85,18 @@ Descriptions below the links are from the first cell of the notebooks
     Notebook to generate `pmv.xml` feed while `nowcast.workers.make_feeds`  
     worker is in development.  
 
+* ##[SalishSea2017SpillForMichael.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/SalishSea2017SpillForMichael.ipynb)  
+    
+    **DFO Salish Sea 2017 Spill Exercise**  
+    **Surface Currents & Velocity Cross-Section**  
+      
+    Render figure object produced by a hacked version of the   
+    `nowcast.figures.research.velocity_section_and_surface` module  
+    for the region of interest.  
+      
+    Set-up and function call replicates as nearly as possible what is done in the `nowcast.workers.make_plots` worker  
+    to help ensure that the module will work in the nowcast production context.  
+
 * ##[ONC-DataWebServices.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/ONC-DataWebServices.ipynb)  
     
     **Exploring ONC Data Web Services**  
