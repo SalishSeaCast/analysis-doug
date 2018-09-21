@@ -7,7 +7,7 @@ The links below are to static renderings of the notebooks via
 Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ## [Exploring-ONC-Python-API.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/notebooks/raw/tip/onc-api/Exploring-ONC-Python-API.ipynb)  
+* ## [Exploring-ONC-Python-API.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/onc-api/Exploring-ONC-Python-API.ipynb)  
     
     **Exploring the ONC Oceans 2.0 API**  
       

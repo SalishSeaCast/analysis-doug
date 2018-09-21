@@ -23,7 +23,7 @@ import re
 
 
 nbviewer = 'https://nbviewer.jupyter.org/urls'
-repo = 'bitbucket.org/salishsea/analysis-doug/notebooks/raw/tip'
+repo = 'bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks'
 repo_dir = 'onc-api'
 url = os.path.join(nbviewer, repo, repo_dir)
 title_pattern = re.compile('#{1,6} ?')
