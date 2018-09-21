@@ -7,12 +7,13 @@ The links below are to static renderings of the notebooks via
 Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ## [Exploring-ONC-Python-API.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/onc-api/raw/tip/notebooks/Exploring-ONC-Python-API.ipynb)  
+* ## [Exploring-ONC-Python-API.ipynb](https://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/notebooks/raw/tip/onc-api/Exploring-ONC-Python-API.ipynb)  
     
     **Exploring the ONC Oceans 2.0 API**  
       
     Via the Python client library  
-    ([PyPI](https://pypi.python.org/pypi/onc), [docs](https://wiki.oceannetworks.ca/display/O2A/Python+Client+Library))  
+    ([PyPI](https://pypi.python.org/pypi/onc),   
+    [docs](https://wiki.oceannetworks.ca/display/O2A/Python+Client+Library))  
 
 
 ## License
