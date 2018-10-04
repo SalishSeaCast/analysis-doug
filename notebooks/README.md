@@ -103,6 +103,21 @@ Descriptions below the links are from the first cell of the notebooks
       
     Exploring the ONC data web services documented at https://wiki.oceannetworks.ca/display/help/API  
 
+* ##[2ndNarrowsHADPCtoERDDAP.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/2ndNarrowsHADPCtoERDDAP.ipynb)  
+    
+    **Development of Algorithms for ERDDAP Dataset from 2nd Narrows HADCP Observations**  
+      
+    Figuring out how to transform 2nd Narrows horizontal ADCP observations from  
+    AIS CSV files into a netCDF file that is part of an ERDDAP dataset:  
+      
+    * Read CSV file into `pandas` dataframe  
+    * Filter to include only 2nd Narrow HADCP rows  
+    * Convert to `xarray.Dataset`  
+    * Add metadata  
+      
+    * **BONUS:** Add observations from an hourly file to an existing netCDF file  
+    so that we can have daily or monthly netCDF instead of hourly  
+
 * ##[CompareTwo.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/tip/notebooks/CompareTwo.ipynb)  
     
     Susan's workhorse notebook for looking at a variety of fields at two different times.  
@@ -132,7 +147,7 @@ Descriptions below the links are from the first cell of the notebooks
 
 ##License
 
-These notebooks and files are copyright 2013-2017
+These notebooks and files are copyright 2013-2018
 by the Salish Sea MEOPAR Project Contributors
 and The University of British Columbia.
 
