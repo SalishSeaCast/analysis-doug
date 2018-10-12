@@ -1,0 +1,23 @@
+# conda env description for 2ndNarrowsHADPCtoERDDAP.ipynb notebook
+#
+# install jupyter lab toc and black extensions with:
+#
+#   jupyter labextension install @jupyterlab/toc
+#   jupyter labextension install @ryantam626/jupyterlab_black
+#   pip install https://github.com/ryantam626/jupyterlab_black/archive/master.zip
+#   jupyter serverextension enable --py jupyterlab_black
+
+name: 2ndNarrowsHADCP
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - black
+  - conda
+  - jupyterlab
+  - nodejs
+  - pip
+  - python=3.6
+  - xarray
