@@ -23,7 +23,7 @@ import re
 
 
 nbviewer = 'http://nbviewer.jupyter.org/urls'
-repo = 'bitbucket.org/salishsea/analysis-doug/raw/tip'
+repo = 'bitbucket.org/salishsea/analysis-doug/raw/default'
 repo_dir = 'notebooks'
 url = os.path.join(nbviewer, repo, repo_dir)
 title_pattern = re.compile('#{1,6} ?')
