@@ -17,6 +17,7 @@ dependencies:
   - black
   - conda
   - jupyterlab
+  - matplotlib
   - nodejs
   - pip
   - python=3.6
