@@ -4,8 +4,6 @@
 #    $ conda env create -f environment.yaml
 #    $ source activate dask-expts
 #    (dask-expts)$ jupyter labextension install @jupyterlab/toc
-#    (dask-expts)$ jupyter labextension install @ryantam626/jupyterlab_code_formatter
-#    (dask-expts)$ jupyter serverextension enable --py jupyterlab_code_formatter
 
 name: dask-expts
 
@@ -14,6 +12,7 @@ channels:
   - defaults
 
 dependencies:
+  - arrow
   - dask
   - jupyterlab
   - matplotlib
@@ -21,10 +20,8 @@ dependencies:
   - numpy
   - pandas
   - python=3.8
+  - python-graphviz
   - xarray
 
   # for jupyterlab extensions
   - nodejs
-
-  # code formatting
-  - jupyterlab_code_formatter
