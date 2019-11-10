@@ -39,7 +39,7 @@ Descriptions below the links are from the first cell of the notebooks
 """
 notebooks = (fn for fn in os.listdir('./') if fn.endswith('ipynb'))
 for fn in notebooks:
-    readme += '* ##[{fn}]({url}/{fn})  \n    \n'.format(fn=fn, url=url)
+    readme += '* ## [{fn}]({url}/{fn})  \n    \n'.format(fn=fn, url=url)
     with open(fn, 'rt') as notebook:
         contents = json.load(notebook)
     try:
@@ -63,7 +63,7 @@ for fn in notebooks:
                     '    {line}{suffix}  '.format(line=line, suffix=suffix))
         readme += '\n' * 2
 license = """
-##License
+## License
 
 These notebooks and files are copyright 2013-{this_year}
 by the Salish Sea MEOPAR Project Contributors
