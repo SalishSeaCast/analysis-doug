@@ -4,6 +4,7 @@
 #    $ conda env create -f environment.yaml
 #    $ source activate dask-expts
 #    (dask-expts)$ jupyter labextension install @jupyterlab/toc
+#    (dask-expts)$ python3 -m pip install -e tools/SalishSeaTools/
 
 name: dask-expts
 
@@ -13,15 +14,29 @@ channels:
 
 dependencies:
   - arrow
+  - basemap
+  - bottleneck
+  - cliff
+  - cmocean
   - dask
+  - gsw
   - jupyterlab
   - matplotlib
   - netCDF4
   - numpy
   - pandas
+  - pip
+  - progressbar
   - python=3.8
   - python-graphviz
+  - pytz
+  - requests
+  - retrying
+  - scipy
   - xarray
 
   # for jupyterlab extensions
   - nodejs
+
+  - pip:
+      -angles
