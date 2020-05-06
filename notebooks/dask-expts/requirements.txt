@@ -2,8 +2,7 @@
 #
 # Update this file by merging the output the command:
 #
-#   python3 -m pip freeze --path $CONDA_PREFIX/lib/python*/site-packages >> requirements.txt
-
+#   python3 -m pip list --format=freeze --path $CONDA_PREFIX/lib/python*/site-packages >> notebooks/dask-expts/requirements.txt
 
 angles==2.0
 arrow==0.15.4
