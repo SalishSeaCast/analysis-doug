@@ -4,7 +4,7 @@
 #    $ conda env create -f environment.yaml
 #    $ source activate dask-expts
 #    (dask-expts)$ jupyter labextension install @jupyterlab/toc
-#    (dask-expts)$ python3 -m pip install -e tools/SalishSeaTools/
+#    (dask-expts)$ python3 -m pip install -e ../tools/SalishSeaTools/
 
 name: dask-expts
 
@@ -39,4 +39,4 @@ dependencies:
   - nodejs
 
   - pip:
-      -angles
+      - angles
