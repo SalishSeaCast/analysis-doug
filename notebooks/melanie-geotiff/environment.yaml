@@ -1,0 +1,27 @@
+# conda environment description file for exploring issue Mélanie is
+# having with plotting CAA bathymetry from geoTIFF file
+#
+#    $ conda env create -f environment.yaml
+#    $ source activate melanie-geotiff
+#    (dask-expts)$ jupyter labextension install @jupyterlab/toc
+
+name: melanie-geotiff
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - basemap
+  - cartopy
+  - cmocean
+  - gdal
+  - jupyterlab
+  - matplotlib
+  - netCDF4
+  - numpy
+  - pip
+  - python=3.8
+
+  # for jupyterlab extensions
+  - nodejs
