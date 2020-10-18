@@ -7,17 +7,25 @@ The links below are to static renderings of the notebooks via
 Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ## [dask_expts.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/default/notebooks/dask-expts/dask_expts.ipynb)  
-    
-    **`dask` Experiments on SalishSeaCast Results**  
-      
-    This notebook explores how to use `dask` and `xarray.open_mfdataset()` to  
-    improve the performance of operations on multiple day's SalishSeaCast results files.  
+* ## [dask_expts.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/default/notebooks/dask-expts/dask_expts.ipynb)
+
+    **`dask` Experiments on SalishSeaCast Results**
+
+    This notebook explores how to use `dask` and `xarray.open_mfdataset()` to
+    improve the performance of operations on multiple day's SalishSeaCast results files.
+
+* ## [elise_dask_expts.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/default/notebooks/dask-expts/elise_dask_expts.ipynb)
+
+    **`dask` Experiments for Elise's Plankton Averaging Workflow**
+
+    This notebook explores the performance of `dask` and `xarray.open_mfdataset()`
+    compared to looping over files with `netCDF4` for Elise's diatoms and microzooplankton
+    averaging workflow.
 
 
 ## License
 
-These notebooks and files are copyright 2013-2019
+These notebooks and files are copyright 2013-2020
 by the Salish Sea MEOPAR Project Contributors
 and The University of British Columbia.
 
