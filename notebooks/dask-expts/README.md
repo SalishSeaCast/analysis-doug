@@ -7,14 +7,14 @@ The links below are to static renderings of the notebooks via
 Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ## [dask_expts.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/default/notebooks/dask-expts/dask_expts.ipynb)
+* ## [dask_expts.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-doug/blob/master/notebooks/dask-expts/dask_expts.ipynb)
 
     **`dask` Experiments on SalishSeaCast Results**
 
     This notebook explores how to use `dask` and `xarray.open_mfdataset()` to
     improve the performance of operations on multiple day's SalishSeaCast results files.
 
-* ## [elise_dask_expts.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/salishsea/analysis-doug/raw/default/notebooks/dask-expts/elise_dask_expts.ipynb)
+* ## [elise_dask_expts.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-doug/blob/master/notebooks/dask-expts/elise_dask_expts.ipynb)
 
     **`dask` Experiments for Elise's Plankton Averaging Workflow**
 
