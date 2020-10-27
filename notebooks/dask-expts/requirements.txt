@@ -24,7 +24,7 @@ cmd2==0.9.15
 cmocean==2.0
 colorama==0.4.3
 colorspacious==1.1.2
-cryptography==2.9.2
+cryptography==3.2
 cycler==0.10.0
 cytoolz==0.10.1
 dask==2.15.0
