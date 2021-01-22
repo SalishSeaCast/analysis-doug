@@ -1,0 +1,21 @@
+# conda environment description file for hindcast-dayavgs tool
+#
+# Create a conda environment in which you can run the code in this dir with:
+#
+#   $ conda env create -f environment.yaml
+#   $ conda activate hindcast-dayavgs
+
+name: hindcast-dayavgs
+
+channels:
+  - conda-forge
+
+dependencies:
+  - arrow
+  - bottleneck
+  - dask
+  - h5netcdf
+  - jupyterlab
+  - netCDF4
+  - python>=3.8
+  - xarray
