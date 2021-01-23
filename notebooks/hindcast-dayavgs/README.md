@@ -9,6 +9,28 @@ Descriptions below the links are from the first cell of the notebooks
 
 * ## [hindcast-dayavgs-dev.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-doug/blob/master/hindcast-dayavgs/hindcast-dayavgs-dev.ipynb)  
     
+    **Development of `hindcast-dayavgs` Tool**
+    
+    This notebook is about initial development work on a tool to calculate
+    day-averaged fields files from hour-averaged output files of SalishSeaCast hindcast runs.
+    
+    The motivations for this tool are:
+    
+    * Hindcast runs, specifically v201905, were run on the EOAS `optimum` cluster
+      which suffers from significant performance degradation as the volume of run
+      output increases. Because of that, the v201905 runs do not include day-averaged
+      fields calculated by NEMO. But the usefulness of those fields for analysis and 
+      model evaluation means that we need to produce them as a post-processing product
+      so that individual researchers don't have to generate them on an *ad hoc* basis.
+      
+    * Timing of a selection of `ncra` commands to generate those files (see below)
+      provides a baseline to compare the performance of `xarray` and `dask` to.
+      `xarray` also provides more control over exclusion of unused variables/coordinates,
+      and metadata buffing than `ncra`
+      
+    `environment.yaml` in this directory contains the conda env description for running
+    this notebook, and the eventual stand-alone `hindcast_dayavgs` tool.
+
 
 ## License
 
