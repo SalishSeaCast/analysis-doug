@@ -13,10 +13,12 @@ channels:
 dependencies:
   - arrow
   - bottleneck
+  - cmocean
   - dask
   - h5netcdf
   - jedi<0.18.0
   - jupyterlab
+  - matplotlib
   - netCDF4
   - python>=3.8
   - xarray
