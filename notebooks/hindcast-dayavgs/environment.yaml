@@ -15,6 +15,7 @@ dependencies:
   - bottleneck
   - dask
   - h5netcdf
+  - jedi<0.18.0
   - jupyterlab
   - netCDF4
   - python>=3.8
