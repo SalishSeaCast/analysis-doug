@@ -18,7 +18,7 @@ dependencies:
   - python>=3.8
   - xarray
 
-  # For interactivate development
+  # For interactive development
   - jupyterlab
 
   # Temporary work-around for ipython imcompatibility w/ jedi
