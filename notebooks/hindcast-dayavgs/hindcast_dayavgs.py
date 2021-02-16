@@ -51,6 +51,8 @@ DROP_VARS = (
     "nvertex",
     "bounds_lon",
     "bounds_lat",
+    "bounds_nav_lon",
+    "bounds_nav_lat",
     "area",
     "deptht_bounds",
     "time_centered",
