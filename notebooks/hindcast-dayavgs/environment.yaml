@@ -21,10 +21,6 @@ dependencies:
   # For interactive development
   - jupyterlab
 
-  # Temporary work-around for ipython imcompatibility w/ jedi
-  # that breaks tab completion
-  - jedi<0.18.0
-
   # For verification plots
   - cmocean
   - matplotlib
