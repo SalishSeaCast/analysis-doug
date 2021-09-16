@@ -7,7 +7,7 @@ The links below are to static renderings of the notebooks via
 Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ## [hindcast-dayavgs-dev.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-doug/blob/master/hindcast-dayavgs/hindcast-dayavgs-dev.ipynb)  
+* ## [hindcast-dayavgs-dev.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/hindcast-dayavgs/hindcast-dayavgs-dev.ipynb)  
     
     **Development of `hindcast-dayavgs` Tool**
     
