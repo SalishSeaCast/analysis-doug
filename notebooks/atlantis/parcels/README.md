@@ -7,12 +7,12 @@ The links below are to static renderings of the notebooks via
 Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ## [LoadOceanParcelsFields.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-doug/blob/main/parcels/LoadOceanParcelsFields.ipynb)  
+* ## [LoadOceanParcelsFields.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/atlantis/parcels/LoadOceanParcelsFields.ipynb)  
     
     **Building OceanParcels Fields from SalishSeaCast Currents and Winds**
     
     Riffing on Raisha's 
-    https://github.com/SS-Atlantis/analysis-raisha/blob/main/notebooks/contaminant-dispersal/SSAM-parcels.ipynb
+    [https://github.com/SS-Atlantis/analysis-raisha/blob/main/notebooks/contaminant-dispersal/SSAM-parcels.ipynb](https://github.com/SS-Atlantis/analysis-raisha/blob/main/notebooks/contaminant-dispersal/SSAM-parcels.ipynb)
     notebook but using `pathlib` and `pprint` from Python stdlib.
 
 
