@@ -1,0 +1,14 @@
+name: becca-retiding
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - autopep8
+  - bottleneck
+  - dask
+  - jupyterlab
+  - netCDF4
+  - scipy
+  - xarray
