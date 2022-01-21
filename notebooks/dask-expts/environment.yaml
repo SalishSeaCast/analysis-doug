@@ -13,6 +13,7 @@ channels:
 
 dependencies:
   - arrow
+  - black
   - bottleneck
   - cliff
   - cmocean
