@@ -144,3 +144,6 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# dask.distributed workers
+dask-worker-space/
