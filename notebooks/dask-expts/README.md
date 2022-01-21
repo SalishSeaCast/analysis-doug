@@ -3,11 +3,11 @@ Doug Latornell for sharing of Python code techniques
 and notes.
 
 The links below are to static renderings of the notebooks via
-[nbviewer.jupyter.org](https://nbviewer.jupyter.org/).
+[nbviewer.org](https://nbviewer.org/).
 Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ## [elise_dask_expts.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-doug/blob/main/dask-expts/elise_dask_expts.ipynb)  
+* ## [elise_dask_expts.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/dask-expts/elise_dask_expts.ipynb)  
     
     **`dask` Experiments for Elise's Plankton Averaging Workflow**
     
@@ -15,7 +15,7 @@ Descriptions below the links are from the first cell of the notebooks
     compared to looping over files with `netCDF4` for Elise's diatoms and microzooplankton
     averaging workflow.
 
-* ## [atlantis_nudge_diatoms.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-doug/blob/main/dask-expts/atlantis_nudge_diatoms.ipynb)  
+* ## [atlantis_nudge_diatoms.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/dask-expts/atlantis_nudge_diatoms.ipynb)  
     
     **SSC Diatoms Extraction for Nudging Atlantis**
     
@@ -23,14 +23,14 @@ Descriptions below the links are from the first cell of the notebooks
     from day-averaged SalishSeaCast hindcast files to create long time series files that
     can be processed to generate "nudging" fields for Atlantis.
 
-* ## [timing_decorator.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-doug/blob/main/dask-expts/timing_decorator.ipynb)  
+* ## [timing_decorator.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/dask-expts/timing_decorator.ipynb)  
     
     **Function Timing Decorator**
     
     Notes about a simple decorator to time function execution.
     Useful as a replacement for `%%time` cell magic when using `dask`.
 
-* ## [dask_expts.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-doug/blob/main/dask-expts/dask_expts.ipynb)  
+* ## [dask_expts.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/dask-expts/dask_expts.ipynb)  
     
     **`dask` Experiments on SalishSeaCast Results**
     
