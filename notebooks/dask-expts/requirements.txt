@@ -33,12 +33,12 @@ colorspacious==1.1.2
 cryptography==36.0.1
 cycler==0.11.0
 cytoolz==0.11.2
-dask==2021.12.0
+dask==2022.1.0
 dataclasses==0.8
 debugpy==1.5.1
 decorator==5.1.1
 defusedxml==0.7.1
-distributed==2021.12.0
+distributed==2022.1.0
 entrypoints==0.3
 executing==0.8.2
 flit_core==3.6.0
@@ -117,7 +117,7 @@ pyzmq==22.3.0
 requests==2.27.1
 scipy==1.7.3
 Send2Trash==1.8.0
-setuptools==60.5.0
+setuptools==59.8.0
 six==1.16.0
 sniffio==1.2.0
 sortedcontainers==2.4.0
