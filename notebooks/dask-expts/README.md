@@ -15,6 +15,21 @@ Descriptions below the links are from the first cell of the notebooks
     compared to looping over files with `netCDF4` for Elise's diatoms and microzooplankton
     averaging workflow.
 
+* ## [atlantis_nudge_diatoms.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-doug/blob/main/dask-expts/atlantis_nudge_diatoms.ipynb)  
+    
+    **SSC Diatoms Extraction for Nudging Atlantis**
+    
+    This notebook explores using `dask.distributed` to extract diatom and lon/lat fields
+    from day-averaged SalishSeaCast hindcast files to create long time series files that
+    can be processed to generate "nudging" fields for Atlantis.
+
+* ## [timing_decorator.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-doug/blob/main/dask-expts/timing_decorator.ipynb)  
+    
+    **Function Timing Decorator**
+    
+    Notes about a simple decorator to time function execution.
+    Useful as a replacement for `%%time` cell magic when using `dask`.
+
 * ## [dask_expts.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-doug/blob/main/dask-expts/dask_expts.ipynb)  
     
     **`dask` Experiments on SalishSeaCast Results**
