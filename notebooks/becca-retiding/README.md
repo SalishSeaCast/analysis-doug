@@ -3,11 +3,11 @@ Doug Latornell for sharing of Python code techniques
 and notes.
 
 The links below are to static renderings of the notebooks via
-[nbviewer.jupyter.org](https://nbviewer.jupyter.org/).
+[nbviewer.jupyter.org](https://nbviewer.org/).
 Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ## [retiding.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/becca-retiding/retiding.ipynb)  
+* ## [retiding.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/becca-retiding/retiding.ipynb)  
     
     **Riffing on Becca's "re-tiding" problem**
     
@@ -28,7 +28,7 @@ Descriptions below the links are from the first cell of the notebooks
 ## License
 
 These notebooks and files are copyright by the
-[UBC EOAS MOAD Group](https://github.com/UBC-MOAD/docs/blob/master/CONTRIBUTORS.rst)
+[UBC EOAS MOAD Group](https://github.com/UBC-MOAD/docs/blob/main/CONTRIBUTORS.rst)
 and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0.

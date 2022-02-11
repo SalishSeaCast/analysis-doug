@@ -3,18 +3,18 @@ Doug Latornell for sharing of Python code techniques
 and notes.
 
 The links below are to static renderings of the notebooks via
-[nbviewer.jupyter.org](https://nbviewer.jupyter.org/).
+[nbviewer.org](https://nbviewer.org/).
 Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ## [ExploreWW3Results.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-doug/blob/main/SoG-waves/ExploreWW3Results.ipynb)  
+* ## [ExploreWW3Results.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/SoG-waves/ExploreWW3Results.ipynb)  
     
     **Exploration of WWatch3 Results**
     
     Basic exploration and visualization of wwatch3 fields and points results files from 
     Salish Sea Nowcast system SoG-waves run.
 
-* ## [12Apr17Forecast.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-doug/blob/main/SoG-waves/12Apr17Forecast.ipynb)  
+* ## [12Apr17Forecast.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/SoG-waves/12Apr17Forecast.ipynb)  
     
     **Exploration of WWatch3 Results for 12Apr17 Forecast Run**
     
@@ -25,7 +25,7 @@ Descriptions below the links are from the first cell of the notebooks
     quiescent initial wave state on 11-Apr-2017,
     and forced with hourly HRDPS winds and Salish Sea NEMO nowcast/forecast currents.
 
-* ## [GridAngles.ipynb](https://nbviewer.jupyter.org/github/SalishSeaCast/analysis-doug/blob/main/SoG-waves/GridAngles.ipynb)  
+* ## [GridAngles.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/SoG-waves/GridAngles.ipynb)  
     
     **Investigate Orientation Wind and Currents Grids for WaveWatch**
     
@@ -64,7 +64,7 @@ Descriptions below the links are from the first cell of the notebooks
 ## License
 
 These notebooks and files are copyright by the
-[UBC EOAS MOAD Group](https://github.com/UBC-MOAD/docs/blob/master/CONTRIBUTORS.rst)
+[UBC EOAS MOAD Group](https://github.com/UBC-MOAD/docs/blob/main/CONTRIBUTORS.rst)
 and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0.

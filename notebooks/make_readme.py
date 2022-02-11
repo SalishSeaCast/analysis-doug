@@ -1,7 +1,7 @@
 """Salish Sea NEMO IPython Notebook collection README generator
 
 
-Copyright 2013-2017 The Salish Sea MEOPAR Contributors
+Copyright 2013 – present The Salish Sea MEOPAR Contributors
 and The University of British Columbia
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,7 +16,6 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 """
-import datetime
 import json
 import os
 import re
@@ -65,14 +64,14 @@ for fn in notebooks:
 license = """
 ##License
 
-These notebooks and files are copyright 2013-{this_year}
+These notebooks and files are copyright 2013 – present
 by the Salish Sea MEOPAR Project Contributors
 and The University of British Columbia.
 
 They are licensed under the Apache License, Version 2.0.
 http://www.apache.org/licenses/LICENSE-2.0
 Please see the LICENSE file for details of the license.
-""".format(this_year=datetime.date.today().year)
+"""
 with open('README.md', 'wt') as f:
     f.writelines(readme)
     f.writelines(license)
