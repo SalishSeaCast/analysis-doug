@@ -1,0 +1,23 @@
+# conda environment description file for exploration of SalishSeaCast.201905
+# double resolution experiment; run spans 2017
+#
+#    $ conda env create -f environment.yaml
+#    $ conda activate 2xrez-2017
+
+name: 2xrez-2017
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - arrow
+  - black
+  - bottleneck
+  - cmocean
+  - jupyterlab
+  - matplotlib
+  - netCDF4
+  - pip
+  - python=3.10
+  - xarray
