@@ -18,6 +18,7 @@ dependencies:
   - jupyterlab
   - matplotlib
   - netCDF4
+  - pandas
   - pip
   - python=3.10
   - xarray
