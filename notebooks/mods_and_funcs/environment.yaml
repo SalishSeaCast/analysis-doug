@@ -1,0 +1,16 @@
+# conda environment description file for 10-Jan-22 discussion of
+# Python modules and functions with Karyn & Raisha
+#
+#    $ conda env create -f environment.yaml
+#    $ conda activate mods-and-funcs
+
+name: mods-and-funcs
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - jupyterlab
+  - pip
+  - python=3.11
