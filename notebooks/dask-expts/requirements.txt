@@ -30,7 +30,7 @@ cloudpickle==2.0.0
 cmd2==2.3.3
 cmocean==2.0
 colorspacious==1.1.2
-cryptography==36.0.1
+cryptography==39.0.1
 cycler==0.11.0
 cytoolz==0.11.2
 dask==2022.1.0
