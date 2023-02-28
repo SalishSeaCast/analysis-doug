@@ -1,0 +1,24 @@
+# conda environment description file for exploration of processing of the
+# ECCC MSC continental grid 2.5 km HRDPS GRIB2 files to create
+# NEMO atmospheric forcing files for SalishSeaCast
+#
+#    $ conda env create -f environment.yaml
+#    $ conda activate pywgrib2-text
+
+name: pywgrib2-text
+
+channels:
+  - conda-forge
+  - yt87
+  - nodefaults
+
+dependencies:
+  - cartopy
+  - dask=2021.03.0
+  - jupyterlab
+  - libwgrib2
+  - matplotlib
+  - pip
+  - python=3.9
+  - pywgrib2_xr
+  - xarray=0.17.0
