@@ -1,0 +1,23 @@
+# conda environment description file for exploration of processing of the
+# ECCC MSC continental grid 2.5 km HRDPS GRIB2 files to create
+# NEMO atmospheric forcing files for SalishSeaCast
+#
+#    $ conda env create -f environment-cfgrib.yaml
+#    $ conda activate cfgrib-grib_to_netcdf
+
+name: cfgrib-grib_to_netcdf
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - arrow
+  - cfgrib
+  - dask
+  - jupyterlab
+  - matplotlib
+  - netcdf4
+  - pip
+  - python=3.10
+  - xarray

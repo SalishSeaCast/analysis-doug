@@ -9,6 +9,14 @@ The links below are to static renderings of the notebooks via
 Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
+* ## [cfgrib-grib_to_netcdf.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/continental-HRDPS/cfgrib-grib_to_netcdf.ipynb)  
+    
+    **`grib_to_netcdf` Processing of Continental HRDPS with `cfgrib`**
+    
+    Exploration of doing the processing of the SalishSeaNowcast `grib_to_netcdf` worker
+    to generate NEMO atmospheric forcing files for SalishSeaCast from the
+    ECCC MSC 2.5 km rotated lat-lon continental grid HRDPS GRIB2 files using the `cfgrib` package.
+
 * ## [pywgrib2-grib_to_netcdf.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/continental-HRDPS/pywgrib2-grib_to_netcdf.ipynb)  
     
     **`grib_to_netcdf` Processing of Continental HRDPS with `pywgrib2_xr`**
