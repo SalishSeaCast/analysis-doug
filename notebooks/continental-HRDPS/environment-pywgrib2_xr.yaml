@@ -14,11 +14,11 @@ channels:
 
 dependencies:
   - cartopy
-  - dask=2021.03.0
+  - dask
   - jupyterlab
   - libwgrib2
   - matplotlib
   - pip
   - python=3.9
   - pywgrib2_xr
-  - xarray=0.17.0
+  - xarray=2022.10
