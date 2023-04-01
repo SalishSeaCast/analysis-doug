@@ -17,6 +17,22 @@ Descriptions below the links are from the first cell of the notebooks
     to generate NEMO atmospheric forcing files for SalishSeaCast from the
     ECCC MSC 2.5 km rotated lat-lon continental grid HRDPS GRIB2 files using the `cfgrib` package.
 
+* ## [crop-grib-to-SSC-domain.ipynb.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/continental-HRDPS/crop-grib-to-SSC-domain.ipynb.ipynb)  
+    
+    **Crop HRDPS Continental GRIB2 File with `xarray` and `cfgrib`**
+    
+    Exploration of loading a ECCC MSC 2.5 km rotated lat-lon continental grid HRDPS GRIB2 file,
+    cropping it to the sub-domain needed for SalishSeaCast NEMO forcing,
+    and writing it to a new GRIB2 file.
+
+* ## [make-SSC_grid_georef-nc.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/continental-HRDPS/make-SSC_grid_georef-nc.ipynb)  
+    
+    **Create `SSC_grid_georef.nc` File**
+    
+    Please see 
+    https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/continental-HRDPS/crop-grib-to-SSC-domain.ipynb.ipynb
+    for the story behind why this file is needed.
+
 * ## [pywgrib2-grib_to_netcdf.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/continental-HRDPS/pywgrib2-grib_to_netcdf.ipynb)  
     
     **`grib_to_netcdf` Processing of Continental HRDPS with `pywgrib2_xr`**
