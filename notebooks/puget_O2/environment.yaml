@@ -1,0 +1,23 @@
+# conda environment description file for exploration of Puget Sound dissolved O2
+# observations and SalishSeaCast NEMO fields
+#
+#    $ conda env create -f environment.yaml
+#    $ conda activate puget-O2
+
+name: puget-O2
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - arrow
+  - black
+  - bottleneck
+  - cmocean
+  - jupyterlab
+  - matplotlib
+  - netCDF4
+  - pip
+  - python=3.11
+  - xarray
