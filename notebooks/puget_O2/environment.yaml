@@ -3,6 +3,7 @@
 #
 #    $ conda env create -f environment.yaml
 #    $ conda activate puget-O2
+#    (puget-O2)$ python3 -m pip install -e ../../../tools/SalishSeaTools/
 
 name: puget-O2
 
@@ -15,9 +16,15 @@ dependencies:
   - black
   - bottleneck
   - cmocean
+  - gsw
   - jupyterlab
   - matplotlib
   - netCDF4
   - pip
   - python=3.11
+  - pytz
+  - scipy
   - xarray
+
+  - pip:
+      - angles
