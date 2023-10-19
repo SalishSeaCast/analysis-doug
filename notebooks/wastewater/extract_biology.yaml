@@ -2,7 +2,7 @@
 # near Iona Island wastewater outfall
 
 dataset:
-  model profile: /ocean/dlatorne/MEOPAR/analysis-doug/notebooks/wastewater/model_profiles/SalishSeaCast-202111-salish.yaml
+  model profile: /ocean/dlatorne/MEOPAR/analysis-doug/notebooks/wastewater/model_profiles/SalishSeaCast-202111-wastewater-salish.yaml
   time base: day
   variables group: biology
 
