@@ -1,0 +1,24 @@
+# conda environment description file for exploration of processing of
+# SalishSeaCast V2021-11 u & v current fields to calculate current-corrected
+# vessel velocities from EMSA program AIS messages.
+#
+#    $ conda env create -f environment.yaml
+#    $ conda activate emsa-currents
+
+name: emsa-currents
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - arrow
+  - jupyterlab
+  - matplotlib
+  - netcdf4
+  - openpyxl
+  - pandas
+  - pip
+  - pyarrow
+  - python=3.12
+  - xarray
