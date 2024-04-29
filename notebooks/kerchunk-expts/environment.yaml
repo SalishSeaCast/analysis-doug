@@ -1,0 +1,26 @@
+# conda environment description file for experiments with Kerchunk to create
+# virtual Zarr datasets from SalishSeaCast netCDF results files
+#
+#    $ conda env create -f environment.yaml
+#    $ conda activate kerchunk-expts
+
+name: kerchunk-expts
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - arrow
+  - black
+  - bottleneck
+  - cftime
+  - dask
+  - fastparquet
+  - h5netcdf
+  - jupyterlab
+  - kerchunk
+  - matplotlib
+  - netCDF4
+  - python=3.12
+  - xarray
