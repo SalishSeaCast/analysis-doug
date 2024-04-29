@@ -14,13 +14,11 @@ dependencies:
   - arrow
   - black
   - bottleneck
-  - cftime
   - dask
   - fastparquet
-  - h5netcdf
+  - h5py
   - jupyterlab
   - kerchunk
   - matplotlib
-  - netCDF4
   - python=3.12
   - xarray
