@@ -41,6 +41,21 @@ Descriptions below the links are from the first cell of the notebooks
     
     ref: https://zenodo.org/badge/latestdoi/588661659
 
+* ## [15may_physics_json_parquet.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/kerchunk-expts/15may_physics_json_parquet.ipynb)  
+    
+    **Parquet Storage from Stored Kerchunk JSON Files**
+    
+    Scan a collection of SalishSeaCast netCDF files to create a collection of Kerchunk reference JSON files
+    Then combine those references to create a combined reference for a virtual dataset for the collection
+    stored as a `Parquet` storage structure instead of `json`.
+    `Parquet` should make the combined reference storage smaller and its use to access the netCDF dataset
+    files use less memory.
+    Finally,
+    demonstrate access to arbitrary slices in the collection.
+    This notebook is based on information learned from the notebooks in Project Pythia Kerchunk Cookbook.
+    
+    ref: https://zenodo.org/badge/latestdoi/588661659
+
 * ## [parquet_kerchunk.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/kerchunk-expts/parquet_kerchunk.ipynb)  
     
     **Parquet Storage for Multi-file Kerchunk Reference Dataset**
