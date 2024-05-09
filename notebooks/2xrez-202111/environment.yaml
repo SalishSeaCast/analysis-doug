@@ -18,6 +18,7 @@ dependencies:
   - h5netcdf
   - jupyterlab
   - matplotlib
+  - notebook
   - python=3.12
   - scipy
   - xarray
