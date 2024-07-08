@@ -1,0 +1,24 @@
+# conda environment description file for preparation and exploration of
+# sss150 NEMO configuration setup in mid-2024
+#
+#    $ conda env create -f environment.yaml
+#    $ conda activate sss150
+
+name: sss150
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - arrow
+  - black
+  - bottleneck
+  - cmocean
+  - h5netcdf
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - python=3.12
+  - scipy
+  - xarray
