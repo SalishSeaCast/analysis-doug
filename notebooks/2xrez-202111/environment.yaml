@@ -18,7 +18,9 @@ dependencies:
   - h5netcdf
   - jupyterlab
   - matplotlib
+  - netcdf4
   - notebook
+  - pyproj
   - python=3.12
   - scipy
   - xarray
