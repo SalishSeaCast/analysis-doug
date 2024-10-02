@@ -22,6 +22,19 @@ Descriptions below the links are from the first cell of the notebooks
     > SalishSeaCast uses Flather boundary conditions to add a SSH from Neah Bay and gets two-dimensional velocities from the Flather Scheme.
     > SalishSeaCast has separate tidal forcing.  SSS150 uses SSH and barotropic velocities to force the 2-D (barotropic) circulation including both tides and longer period SSH variations.
 
+* ## [xios2_update-check.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/sss150/xios2_update-check.ipynb)  
+    
+    **Check Results of Runs with Updated XIOS-2**
+    
+    Compare results of SalishSeaCast_Blue runs with XIOS-2 updated to successfully build with GCC-9 compilers against pre-update results.
+    
+    The update of `salish` to Ubuntu 20.04.2 LTS us to change from GCC-5 compilers and OpenMPI-2 library to GCC-9 and OpenMPI-4.
+    Builds of NEMO configurations using XIOS-2 at svn r1660 that we have been using since Apr-2019 fail when compiled with GCC-9 due to
+    memory allocation errors or runaway memory consumption.
+    Updating XIOS-2 to the upstream trunk in Sep/Oct-2024 resulted in builds that produced successful test runs.
+    Initial testing was done using svn r2659.
+    The revision pushed to our XIOS-2 repository on GitHub was svn r2660.  
+
 
 ## License
 
