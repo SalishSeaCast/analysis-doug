@@ -8,18 +8,6 @@ The links below are to static renderings of the notebooks via
 Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ## [NoSnow.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/sss150/NoSnow.ipynb)  
-    
-    **Create `no_snow.nc` File for `sss150` Domain**
-    
-    Create a netCDF4 file containing 1 variable named `snow`.
-    The coordinates of the variable are `y` and `x` and their sizes are 826 and 710.
-    The value of `snow` at all points in the domain is floating point zero.
-    
-    The resulting `no_snow.nc` file can be used as an annual climatology in NEMO atmospheric forcing
-    that does not require on-the-fly interpolation.
-    It imposes a no snow, ever condition on the `sss150` NEMO configuration.
-
 * ## [xios2_update-check.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/sss150/xios2_update-check.ipynb)  
     
     **Check Results of Runs with Updated XIOS-2**
@@ -46,6 +34,23 @@ Descriptions below the links are from the first cell of the notebooks
     > The new boundary conditions that Michael added are needed because the boundary between SalishSeaCast and SSS150 is handled differently than the boundaries of SalishSeaCast. 
     > SalishSeaCast uses Flather boundary conditions to add a SSH from Neah Bay and gets two-dimensional velocities from the Flather Scheme.
     > SalishSeaCast has separate tidal forcing.  SSS150 uses SSH and barotropic velocities to force the 2-D (barotropic) circulation including both tides and longer period SSH variations.
+
+* ## [NoSnowIce.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/sss150/NoSnowIce.ipynb)  
+    
+    **Create `no_snow_ice.nc` File for NEMO Surface Forcing**
+    
+    Create a netCDF4 file containing 2 variables named `snow` and `ice`.
+    The coordinates of the variable are `y` and `x`.
+    The values of `snow` and `ice` at all points in the domain is floating point zero.
+    
+    The resulting `no_snow_ice.nc` file can be used as an annual climatology in NEMO atmospheric forcing
+    that does not require on-the-fly interpolation.
+    It imposes a no snow, ever condition on the NEMO configuration.
+    The no ice, ever condition that it provides works in conjunction with the code in `sbcice_if.F90` contributed by Michael Dunphy
+    to provide a minimal ice-model substitute. 
+    In Michael's words,
+    > "The point is to make sure water temperatures don’t go below the local freezing point, 
+    > and there are some limits on heat exchanges as well."
 
 
 ## License
