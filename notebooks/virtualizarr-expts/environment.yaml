@@ -1,0 +1,31 @@
+# conda environment description file for experiments with VirtualiZarr to create
+# virtual Zarr datasets from SalishSeaCast netCDF results files
+#
+#    $ conda env create -f environment.yaml
+#    $ conda activate virtualizarr-expts
+
+name: virtualizarr-expts
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - arrow
+  - black
+  - bottleneck
+  - dask
+  - fastparquet
+  - h5netcdf
+  - h5py
+  - jupyterlab
+  - kerchunk>=0.2.5
+  - matplotlib
+  - netcdf4
+  - packaging
+  - pip
+  - pooch
+  - python=3.12
+  - ujson
+  - universal_pathlib
+  - xarray
