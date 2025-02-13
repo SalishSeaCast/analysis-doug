@@ -8,13 +8,23 @@ The links below are to static renderings of the notebooks via
 Descriptions below the links are from the first cell of the notebooks
 (if that cell contains Markdown or raw text).
 
-* ## [bathymetry.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/2xrez-202111/bathymetry.ipynb)  
+* ## [bathymetry-202405.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/2xrez-202111/bathymetry-202405.ipynb)  
     
-    **Bathymetry**
+    **Bathymetry 202405**
+    
+    * Follow the process in Michael's
+      https://github.com/SalishSeaCast/analysis-michael/blob/master/bathymetry/bathymetry-201702.ipynb notebook
+      with the addition of an adjustment to maximize the depths in the Fraser River from Susan's
+      https://github.com/SalishSeaCast/tools/blob/main/bathymetry/bathymetry_201803.ipynb notebook
+      to create the base bathymetry for the 202405 coordinates
+
+* ## [bathymetry-202405-2xrez.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/2xrez-202111/bathymetry-202405-2xrez.ipynb)  
+    
+    **Bathymetry 202405 Double Resolution**
     
     * Follow the process in Michael's
       https://github.com/SalishSeaCast/analysis-michael/blob/master/bathymetry/bathymetry-201702.ipynb
-      notebook to create the base bathymetry for the 202405 coordinates and double resolution coordinates
+      notebook to create the base bathymetry for the 202405 double resolution coordinates
 
 * ## [coordinates.ipynb](https://nbviewer.org/github/SalishSeaCast/analysis-doug/blob/main/notebooks/2xrez-202111/coordinates.ipynb)  
     
