@@ -1,0 +1,22 @@
+[workspace]
+authors = ["Doug Latornell <dlatornell@eoas.ubc.ca>"]
+channels = ["conda-forge"]
+name = "analysis-doug"
+platforms = ["linux-64"]
+version = "25.0"
+
+[tasks]
+
+[dependencies]
+arrow = "*"
+black = "*"
+bottleneck = "*"
+cftime = "*"
+cmocean = "*"
+jupyterlab = "*"
+matplotlib = "*"
+nc-time-axis = "*"
+netcdf4 = "*"
+pip = "*"
+python = "3.14.*"
+xarray = "*"
