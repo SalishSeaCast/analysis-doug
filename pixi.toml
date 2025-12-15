@@ -20,3 +20,18 @@ netcdf4 = "*"
 pip = "*"
 python = "3.14.*"
 xarray = "*"
+
+[feature.salishseacast-hourly-prod]
+channels = ["conda-forge"]
+
+[feature.salishseacast-hourly-prod.dependencies]
+arrow = "*"
+cmocean = "*"
+h5netcdf = "*"
+matplotlib = "*"
+notebook = "*"
+python = "3.13.*"
+xarray = "*"
+
+[environments]
+salishseacast-hourly-prod = { features = ["salishseacast-hourly-prod"], no-default-feature = true }
