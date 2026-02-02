@@ -20,6 +20,7 @@ dependencies:
   - matplotlib
   - netcdf4
   - notebook
+  - plotly
   - pyproj
   - python=3.12
   - scipy
