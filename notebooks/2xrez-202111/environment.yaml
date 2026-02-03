@@ -25,4 +25,5 @@ dependencies:
   - pyproj
   - python=3.12
   - scipy
+  - scipy-stubs
   - xarray
