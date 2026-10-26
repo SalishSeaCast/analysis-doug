@@ -10,7 +10,6 @@ version = "25.0"
 [dependencies]
 arrow = "*"
 black = "*"
-bottleneck = "*"
 cftime = "*"
 cmocean = "*"
 jupyterlab = "*"
